@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        body {
+            background-color: #E8ECED;
+        }
+        .fpphoto {
+            width: 100px;
+            height: 100px;
+            border: 5px solid white;
+            border-radius: 50%;
+            margin: 10px;
+            }
+        .photo {
+            width: 75px;
+            height: 75px;
+            border: 5px solid white;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        .photo:hover, .fpphoto:hover {
+            border: 5px solid black;
+        }
+        #card {
+            text-align: center;
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 800px 1fr;
+            grid-template-rows: 65px 125px 50px 300px 60px;
+        }
+        #christus {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+            z-index: -1;
+            border: 5px solid black;
+            border-radius: 30px;
+            object-fit: cover;
+            grid-column: 2/3;
+            grid-row: 1/7
+        }
+        h2 {
+            grid-row: 1/2;
+            grid-column: 2/3;
+            color: white;
+            font-family: arial;
+        }
+        #first {
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        h4 {
+            grid-row: 3/4;
+            grid-column: 2/3;
+            color: white;
+            font-family: arial;
+        }
+        #twelve {
+            grid-column: 2/3;
+            grid-row: 4/5;
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+     <div id="card">
+        <img id="christus" src="images/christus.webp" alt="Christus">
+        <h2>First Presidency</h2>
+        <section id="first">
+            <img class="fpphoto" src="images/oaks.webp" alt="President Oaks">
+            <img class="fpphoto" src="images/Nelson.webp" alt="President Nelson">
+            <img class="fpphoto" src="images/eyring.webp" alt="President Eyring"> 
+        </section>
+        <h4>Quorum of the Twelve Apostles</h4>
+        <section id="twelve">
+            <div id="second">
+                <img class="photo" src="images/holland.webp" alt="Elder Holland"> 
+                <img class="photo" src="images/uchtdorf.webp" alt="Elder Uchtdorf"> 
+                <img class="photo" src="images/bednar.webp" alt="Elder Bednar"> 
+                <img class="photo" src="images/cook.webp" alt="Elder Cook"> 
+            </div>
+            <div id="third">
+                <img class="photo" src="images/christofferson.webp" alt="Elder Chirstofferson"> 
+                <img class="photo" src="images/anderson.webp" alt="Elder Anderson"> 
+                <img class="photo" src="images/rasband.webp" alt="Elder Rasband"> 
+                <img class="photo" src="images/stevenson.webp" alt="Elder Stevenson"> 
+            </div>
+            <div id="fourth">
+                <img class="photo" src="images/renlund.webp" alt="Elder Renlund"> 
+                <img class="photo" src="images/gong.webp" alt="Elder Gong"> 
+                <img class="photo" src="images/soares.webp" alt="Elder Soares"> 
+                <img class="photo" src="images/kearon.webp" alt="Elder Kearon"> 
+            </div>
+        </section>
+     </div>
+</body>
+</html>

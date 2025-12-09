@@ -1,0 +1,13 @@
+header {
+    background-color:rgb(109, 255, 243);
+    text-align: center;
+}
+body {
+    background-color:rgb(255, 255, 255);
+}
+.content {
+    margin: 0 auto;
+}
+header nav a {
+    text-decoration: none;
+}
