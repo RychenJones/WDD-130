@@ -101,6 +101,9 @@ footer h4 {
     justify-content: space-around;
     align-items: center;
 }
+#reports a:hover {
+    font-size: 1.2em;
+}
 
 
 /* ice.html */
